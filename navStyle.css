@@ -1,31 +1,86 @@
-ul{
 
-}
-
-div {
-  background-image: image();
-}
-
-head {
+#title {
+  font-family: comic sans ms;
+  font-size: 40px;
+  background-color: white;
+  height: 119px;
+  width: 424px;
   text-align: center;
-
+  border: 8px solid #66e0ff;
+  border-radius: 25px;
+  margin-top: 35px;
+  background-image: url('banner.jpg');
+  color: #66e0ff;
+  margin-right: 140px;
 }
 
-li{
-     display: inline;
-     text-decoration: none;
-     padding-left: 100px;
-     color:
+li {
+     color: black;
+     font-family: comic sans ms;
 }
 
 li:hover {
-  background-color:
+  background-color: lightblue;
+  border-radius: 5px;
+  margin-right: 25px;
 }
 
-a{
-
+#menuNav {
+  height: 40%;
+  background-color: white;
+  width: 100px;
+  margin-left: 25px;
+  Border: 8px solid #66e0ff;
+  border-radius: 30px;
+  background-image: url('txt.jpg');
+  float: left
 }
 
-head{
-
+#menuNavw {
+  margin-top: 38px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  color: black;
 }
+
+  a.nav-link:link {
+     color: #black;
+     text-decoration: none;
+  }
+  a.nav-link:visited
+  {
+     color: black;
+     text-decoration: none;
+  }
+  a.nav-link:hover
+  {
+     color: #black;
+     text-decoration: none;
+  }
+  a.nav-link:active
+  {
+     color: #black;
+     text-decoration: none;
+  }
+
+  #head2 {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border: 8px solid #66e0ff;
+    border-radius: 25px;
+    float: right;
+    font-family: comic sans ms;
+    margin-right: 50px;
+  }
+
+  .mySlides {
+    border: 5px solid #66e0ff;
+    border-radius: 40px;
+  }
+
+  #shoya {
+    width: 250px;
+    border-radius: 25px;
+  }

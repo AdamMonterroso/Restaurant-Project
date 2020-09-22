@@ -1,23 +1,84 @@
 <html>
-  <head>
-    <title>Japanese Cuisine</title>
-    <link rel="navStyle.css" href="navStyle.css">
-  </head>
+  <body>
+<head>
+    <title>Anime Cafe</title>
+    <link rel="StyleSheet" href="navStyle.css">
+</head>
+  <div>
+    <div>
+      <div>
+        <style>
+        .mySlides {display:none;}
+        </style>
+          <div>
+            <div>
+              <div>
+                <style>
+                  body { background-image: url('bg.jpg'); }
+                </style>
+                  <div>
+                    <div>
+                      <div>
+                        <center>
+                          <h1 id="title">Anime Cafe</h1>
+                            <div>
+                              <div>
+                                <div>
+                                  <ul id="menuNav">
+                                    <li id="menuNavw"> <a href="menu.html" class="nav-link">Food</a></li>
+                                    <li id="menuNavw"> <a href="drinks.html" class="nav-link">Drinks</a></li>
+                                    <li id="menuNavw"> <a href="staff.html" class="nav-link">Staff</a></li>
+                                  </ul>
+                                    <div>
+                                      <div>
+                                        <p id="head2">
+                                        <br>
+                                        <br>
+                                        Made by Adam <br>
+                                        <br>
+                                        <br>
+                                        Finished 9/22/2020 <br>
+                                        <br>
+                                        <img src="shoya.jpg" id="shoya">
+                                        </p>
+                                          <div>
+                                       <div>
+                                    <div>
+                                 <div>
+      <div id="slide">
+        <img class="mySlides" src="berry.gif" style="width:50%">
+        <img class="mySlides" src="water.gif" style="width:50%">
+        <img class="mySlides" src="omollete.gif" style="width:50%">
+        <img class="mySlides" src="soda.gif" style="width:50%">
+        <img class="mySlides" src="ramen.gif" style="width:50%">
+        <img class="mySlides" src="coffee.gif" style="width:50%">
+        <img class="mySlides" src="bene.gif" style="width:50%">
+        <img class="mySlides" src="beer.gif" style="width:50%">
 
-  <header>
-    <img src= "" alt="Banner" height="50px" width="100%">
-  </header>
+      <script>
+        var myIndex = 0;
+carousel();
 
-
- <body>
-
-<ul>
-  <li> <a href="" >  </a> </li>
-  <li> <a href="" > </a> </li>
-  <li> <a href="" > </a> </li>
-  <li> <a href="" > </a> </li>
-</ul>
-
-
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+      </script>
+       <div>
+         <div>
+           <div>
+             <div>
+               </center>
+            <div>
+         <div>
+       <div>
+    <div>
  </body>
 </html>
